@@ -1,0 +1,59 @@
+body {
+  margin: auto 0%;
+  width: 850px;
+
+}
+
+
+main {
+  width: 850px;
+  height: 450px;
+  background-image: url(https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/pia24543-1-16.jpg);  
+  color: white;
+  text-align: center;
+  Font-size: 75px;
+  font-style: bold;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.centered{ 
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  position: absolute;
+
+}
+
+article {
+  width: 270px;
+  height: 374px;
+  background-color: rgb(224, 222, 222);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+section {
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(224, 222, 222);
+  display: flex;
+  margin: auto 0%;
+  height: 374px;
+
+
+}
+
+button {
+      background-color: #303130;
+      border: none;
+      color: white;
+      padding: 9px 13px;
+      margin-top: 7px;
+      text-align: left;
+      font-size: 20px;
+      font-weight: bold;
+      display: inline-block;
+      Height: auto;
+      width: auto; 
+    }
+   

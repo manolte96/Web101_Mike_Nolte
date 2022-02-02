@@ -1,0 +1,45 @@
+header {
+border: 2px dotted blue;
+text-align: center;
+}
+
+body{
+    text-align: center;
+}
+
+section {
+    /* border: 2px solid blue; */
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+}
+
+footer {
+    border: 2px solid blue;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+article{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+hr {
+    margin: 80px;
+    background-color: rgb(185, 199, 234);
+    top: -20px;
+}
+
+hr:after {
+    content: 'EXPERIENCE';
+    height: 50px;
+    padding: 0 5px;
+}

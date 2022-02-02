@@ -1,0 +1,38 @@
+header{
+    background-image: url("moon.jpeg");
+    width: 850px;
+    border: 1px solid black;
+    height: 450px;
+    margin-bottom: 20px;
+
+}
+
+footer{
+    width: 850px;
+    border: 1px solid black;
+    height: 324px;
+    padding: 20px;
+    display: flex;
+
+}
+article{
+    border: 1px solid black;
+    height: 300 px;
+    width: 250 px;
+    margin: 20px;
+
+}
+
+H1{
+    font-style:bold;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 60pt;
+}
+div class footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
