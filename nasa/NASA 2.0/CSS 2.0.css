@@ -1,13 +1,25 @@
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 850px) {
+/* Styles */
+}
+
+
 body {
   margin: auto 0%;
   width: 850px;
 
 }
 
+/* .centered{
+
+  justify-content: center;
+  padding: left 50px;
+  padding: top 50px; */
 
 main {
-  width: 850px;
-  height: 450px;
+  width: 850px; 
+  height: 450px; 
   background-image: url(https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/pia24543-1-16.jpg);  
   color: white;
   text-align: center;
@@ -16,13 +28,19 @@ main {
   justify-content: center;
   margin-bottom: 20px;
   font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
 }
 .centered{ 
   justify-content: center;
   text-align: center;
   display: flex;
+  /* padding: left 50px; */
   position: absolute;
-
+  top: 30%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  font-family: Helvetica;
+  font-style: bold;
 }
 
 article {
@@ -39,6 +57,7 @@ section {
   display: flex;
   margin: auto 0%;
   height: 374px;
+  padding-left: 7%;
 
 
 }
@@ -55,5 +74,7 @@ button {
       display: inline-block;
       Height: auto;
       width: auto; 
-    }
+    
+}
+
    
