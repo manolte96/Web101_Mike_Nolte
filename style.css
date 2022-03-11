@@ -1,0 +1,59 @@
+body {
+  display: inline-block;
+  margin: 20% auto;
+  padding-left: 25%;
+  justify-content: center;
+  width: 50%;
+  height: 75%;
+}
+label {
+  font-size: 25px;
+  font-style: bold;
+}
+#addition {
+  background-color: white; 
+  color: black; 
+  border: 2px solid black;
+}
+#addition:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+}
+#subtraction {
+  background-color: white;
+  color: black;
+  border: 2px solid blue;
+}
+#subtraction:hover {
+  background-color: blue;
+  color: white;
+}
+#multiplication {
+  background-color: white;
+  color: black;
+  border: 2px solid purple;
+}
+#multiplication:hover {
+  background-color: purple;
+  color: white;
+}
+#division {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(138, 102, 11);
+}
+#division:hover {
+  background-color: rgb(138, 102, 11);
+  color: white;
+}
+#modulus {
+  background-color: black;
+  color: white;
+}
+#modulus:hover {
+  color: red;
+}
+.result {
+  font-size: 35px;
+}
